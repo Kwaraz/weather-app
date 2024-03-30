@@ -1,0 +1,53 @@
+.weather{
+  margin: auto;
+  background-image: linear-gradient(rgba(48, 223, 164, 1), rgba(66, 69, 255, 0.5));
+
+  align-content: center;
+  text-align: center;
+  width: 75%;
+  
+  border-radius: 5px
+}
+.card{
+  background-color: aliceblue;
+  margin: auto;
+  width:50%;
+  background-color: rgba(154, 154, 211, 0.5);
+  padding:10px;
+  border-radius: 5px;
+}
+.search {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+}
+
+
+#submit-button{
+  max-height:30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#searchbar{
+  height: 30px;
+  width:70%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#weatherIcon{
+  width:50%;
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url("background1.jpg");
+  background-size: cover; /* or contain */
+  background-repeat: no-repeat;
+}
